@@ -1,0 +1,8 @@
+# 登入歷史(LOGIN_HISTORY)
+
+PK|UNI|欄位|型態|NOT NULL|AUTO|預設|定義
+:-:|:-:|-|-|:-:|:-:|-|-
+Y||USERNAME|VARCHAR(100)|Y|||帳號ID
+Y||LOGIN_TIME|VARCHAR(15)|Y|||登入時間，YYYYMMDD HHMMSS
+|||SUCCESS|BOOLEAN|Y|||登入成功或失敗,TRUE為成功，FALSE為失敗
+|||REASON|VARCHAR(100)||||當欄位SUCCESS為FALSE時，會記錄登入失敗的原因

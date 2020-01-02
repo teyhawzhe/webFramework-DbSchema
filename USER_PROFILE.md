@@ -1,0 +1,12 @@
+# 用戶資料(USER_PROFILE)
+
+PK|UNI|欄位|型態|NOT NULL|AUTO|預設|定義
+:-:|:-:|-|-|:-:|:-:|-|-
+Y||USERNAME|VARCHAR(200)|Y|||帳號ID
+|||NAME|VARCHAR(100)|Y|||用戶姓名
+|||IMAGE|CLOB|Y|||大頭照
+|||EMAIL|VARCHAR(100)|Y|||用戶EMAIL
+|||SEX|VARCHAR(1)|Y|||性別
+|||DEPARTMENT|VARCHAR(100)|Y|||部門
+|||CREATE_DATE|VARCHAR(13)|Y|||創建時間，YYYYMMDD HHMM
+|||CREATER|VARCHAR(13)|Y|||創建者
